@@ -1,0 +1,253 @@
+ 
+ body{
+    margin: 0;
+    padding-top: 150px;
+}
+header div{
+    background: linear-gradient(#898787, #000000);
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    animation: anim 3s  infinite alternate ;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+span{
+    color: #4caf54;
+}
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+    color: white
+}
+a:hover{
+    color: #4caf54;
+}
+@keyframes anim{
+    from{
+            background: linear-gradient(#898787, #000000);
+    }
+    to{
+            background: linear-gradient(#000000, #898787);
+
+    }
+}
+
+.titre{
+   text-align: center;
+   flex-wrap: wrap;
+   padding: 20px
+}
+.projet{
+    text-align:center;
+    padding: 0 20px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    padding:  0 40px;
+    gap: 30px;
+}
+
+.card{
+    text-align: left;
+    padding: 0 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.card h3{
+    text-align: center;
+    padding: 10px;
+    color: green;
+    border-bottom :2px solid #000000 ;
+    padding: 0 ;
+    background-color: aqua;
+     
+}
+
+ footer{
+  display: flex;
+  justify-content: center;
+  background: #f4f4f4;
+  padding: 40px 0;
+  gap: 10px;
+}
+                                                                                                                                                  
+footer form{
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+} 
+                                                        
+footer{
+    display: flex;
+    justify-content:center;
+    padding: 10px;
+    gap: 20px;
+}
+footer form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    align-items: center;
+    text-align: center;
+}
+footer .inp{
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
+footer label{
+    text-align: left;
+    font-weight: bold;
+}
+footer input,
+footer textarea{
+    width: 100%;
+    padding: 10px;
+}
+footer button{
+    width: 520px;
+    background: blue;
+    color: white;
+    margin: 10px auto;
+    padding: 10px;
+}
+footer p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+footer .inp{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer label{
+  text-align: left;
+  font-weight: bold;
+}
+
+footer input,
+footer textarea{
+  width: 100%;
+  padding: 8px;
+}
+
+footer button{
+  width: 515px;
+  margin: 15px auto;
+  padding: 8px;
+  color: #f0ffff;
+  background-color: #0000ff;
+}
+footer p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */
