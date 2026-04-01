@@ -1,0 +1,60 @@
+       body {
+            background: url('https://images.unsplash.com/photo-1600185364675-3f1cfae8c3a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1080') no-repeat center center fixed;
+            background-size: cover;
+            font-family: 'Arial', sans-serif;
+        }
+        #form{
+          margin-bottom: 50px;
+        }
+        .card {
+            background-color: rgba(248, 245, 245, 0.95);
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        }
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 3px solid #0d49d5;
+        }
+        .file-input {
+            display: none;
+        }
+        .upload-btn {
+            cursor: pointer;
+            color: #f9f3f3;
+            background-color: #0d49d5;
+            border: none;
+            padding: 6px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+        .upload-btn:hover {
+            background-color: #ff3b2e;
+        }
+        .form-control:focus {
+            box-shadow: none;
+            border-color: #0d49d5;
+        }
+        .btn-submit {
+            background-color:#0d49d5;
+            border: none;
+        }
+        .btn-submit:hover {
+            background-color: #0d49d5;
+        }
+        .perfume-img {
+            max-height: 100px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin: 5px;
+        }
+        p a{
+          text-decoration: none;
+        }
+        h3{
+          text-align: center;
+          color: #f8f9fa;
+        }
+ 

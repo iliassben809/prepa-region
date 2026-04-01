@@ -1,0 +1,147 @@
+
+    .titre {
+      text-align: center;
+      padding: 20px;
+    }
+
+    h5 {
+      font-style: italic;
+    }
+
+    section {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .foo {
+      text-align: center;
+      background-color: rgb(0, 0, 0);
+      color: aliceblue;
+      padding: 10px;
+    }
+
+    body {
+      background: #fcf8f8;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .hero-section {
+      min-height: 100vh;
+      background:#fcf8f8;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .hero-title {
+      font-size: 3rem;
+      font-weight: 500;
+      color:#000;
+    }
+
+    .hero-title span {
+      color: #d4af37;
+      /* gold */
+    }
+
+    .hero-text {
+      color: #ccc;
+      margin: 20px 0 30px;
+      max-width: 500px;
+      color: black;
+    }
+
+    .btn-gold {
+      background: #d4af37;
+      color: #000;
+      border: none;
+      padding: 12px 30px;
+      font-weight: 600;
+    }
+
+    .btn-gold:hover {
+      background: #b8962e;
+      color: #000;
+    }
+
+    .hero-img {
+      max-width: 380px;
+      height: 500px;
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .hero-title {
+        font-size: 2.3rem;
+      }
+
+      .hero-section {
+        text-align: center;
+        padding-top: 60px;
+      }
+    }
+
+    .lux-footer {
+      background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .brand {
+      color: #d4af37;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    #brand{
+      color: #d4af37;;
+    }
+
+    .footer-title {
+      color: #d4af37;
+      margin-bottom: 15px;
+    }
+
+    .footer-text {
+      color: #bbb;
+      max-width: 300px;
+    }
+
+    .footer-link {
+      color: #ccc;
+      text-decoration: none;
+      margin-bottom: 10px;
+      display: inline-block;
+      transition: all 0.3s ease;
+    }
+
+    .footer-link:hover {
+      color: #d4af37;
+      transform: translateX(5px);
+    }
+
+    .social-icons a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      background: #1f1f1f;
+      color: #fff;
+      font-size: 20px;
+      margin-right: 10px;
+      transition: 0.3s;
+    }
+
+    .social-icons a:hover {
+      background: #d4af37;
+      color: #000;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid #333;
+      padding: 15px 0;
+      color: #888;
+    }

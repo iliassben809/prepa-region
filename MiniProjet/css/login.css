@@ -1,0 +1,42 @@
+
+    body {
+      min-height: 100vh;
+      background: #1b1b1b;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+    }
+
+    .container {
+      margin-left: auto;
+
+    }
+
+    .card {
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    }
+
+    .img-cover {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
+
+    h3 {
+      font-style: italic;
+      margin-bottom: 100px;
+    }
+
+    form {
+      margin-top: 70px;
+    }
+
+    .no-underline {
+      text-decoration: none;
+      font-weight: 100px;
+      font-size: larger;
+      font: 1em sans-serif;
+    }

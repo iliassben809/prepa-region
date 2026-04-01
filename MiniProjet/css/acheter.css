@@ -1,0 +1,18 @@
+
+        body {
+            background: linear-gradient(135deg, #e3f2fd, #f8f9fa);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card {
+            border-radius: 15px;
+        }
+        .btn-custom {
+            background: #000;
+            color: #fff;
+        }
+        .btn-custom:hover {
+            background: #333;
+        }

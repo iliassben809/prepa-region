@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            text-align: center;
+
+            th,
+            td {
+                border: 1px solid black;
+                padding: 10px;
+            }
+        }
+
+        caption {
+            font-weight: bold;
+            font-size: 25px;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .jours {
+            font-weight: bold;
+            background-color: cadetblue;
+            font-style: italic;
+        }
+
+        #blue {
+            font-weight: bold;
+            font-size: 25px;
+            color: blue;
+            background-color: rgb(142, 181, 201);
+            font-style: italic;
+
+        }
+
+        .viol {
+            background-color: rgb(127, 22, 175);
+            color: white;
+            font-style: oblique;
+        }
+
+        .gry {
+            background-color: rgb(169, 168, 170);
+            color: white;
+            font-style: oblique;
+        }
+
+        #S {
+            background-color: rgb(31, 54, 130);
+            color: white;
+            font-style: oblique;
+        }
+
+        .column1 {
+            background-color: rgb(211, 81, 15);
+        }
+
+        .column2 {
+            background-color: orange;
+        }
+        .column1, .column2{
+            flex-wrap: nowrap;
+        }
+
+        fieldset {
+            width: fit-content;
+        }
+        footer{
+        padding: 2px;
+        background-color: rgb(98, 99, 100);
+        }
+        table tr :first-child th :last-child{
+            border-right: none;
+            border-top: none;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <table border="1" celpadding="10" celspacing="10">
+            <caption>Planning des taches par Équipe:</caption>
+            <tr>
+                <th rowspan="2" style="color: rgb(250, 246, 246); background-color: rgb(31, 54, 130);">Équipages</th>
+                <th id="blue" colspan="10">Janvier</th>
+                <th rowspan="2"></th>
+            </tr>
+            <tr class="jours">
+                <td colspan="2">Lundi</td>
+                <td colspan="2">Mardi</td>
+                <td colspan="2">Mercredi</td>
+                <td colspan="2">Jeudi</td>
+                <td colspan="2">vendredi</td>
+            </tr>
+            <tr class="column1">
+                <td class="viol">Équipe 1</td>
+                <td colspan="6">Tache 1</td>
+                <td colspan="4">Tachycardie 2</td>
+                <td id="S" rowspan="2">Semaine 1</td>
+            </tr>
+            <tr class="column2">
+                <td class="gry">Équipe 2</td>
+                <td colspan="5">Tache 1</td>
+                <td colspan="5">Tachycardie 2</td>
+            </tr>
+            <tr class="column1">
+                <td class="viol">Équipe 1</td>
+                <td colspan="2">Tache 3</td>
+                <td colspan="6">Tachycardie 4</td>
+                <td colspan="2">Tache 5</td>
+                <td id="S" rowspan="2">Semaine 2</td>
+            </tr>
+            <tr class="column2">
+                <td class="gry">Équipe 2</td>
+                <td colspan="4">Tachycardie 3</td>
+                <td colspan="6">Tachycardie 4</td>
+            </tr>
+            <tr class="column1">
+                <td class="viol">Équipe 1</td>
+                <td colspan="5">Tache 5</td>
+                <td colspan="5">Tachycardie 6</td>
+                <td id="S" rowspan="2">Semaine 3</td>
+            </tr>
+            <tr class="column2">
+                <td class="gry">Équipe 2</td>
+                <td colspan="2">Tache 5</td>
+                <td colspan="8">Tachycardie 6</td>
+            </tr>
+            <tr class="column1">
+                <td class="viol">Équipe 1</td>
+                <td colspan="6">Tache 7</td>
+                <td colspan="4">Tachycardie 8</td>
+                <td id="S" rowspan="2">Semaine 4</td>
+            </tr>
+            <tr class="column2">
+                <td class="gry">Équipe 2</td>
+                <td colspan="5">Tachycardie 7</td>
+                <td colspan="5">Tachycardie 8</td>
+            </tr>
+        </table>
+
+        <footer>
+            <p align="center">Tableau avec fusion de cellules</p>
+        </footer>
+    </fieldset>
+<label for="h">volume 0</label>
+<input type="range" id="h" min="0" max="100">100
+</body>
+
+</html>
